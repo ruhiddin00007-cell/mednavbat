@@ -1,0 +1,10 @@
+[36mvite v8.3.0 [32mbuilding client environment for development...[36m[39m
+transforming...
+✓ 1955 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   6.18 kB │ gzip:   2.09 kB
+dist/assets/index-W6TSeCBb.css  134.76 kB │ gzip:  17.60 kB
+dist/assets/index-Bway-ksI.js   671.56 kB │ gzip: 179.87 kB
+
+[32m✓ built in 1.03s[39m

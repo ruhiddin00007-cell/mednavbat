@@ -1,0 +1,46 @@
+{
+  "name": "ruhiddin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test:i18n": "node --test tests/i18n.test.js",
+    "test:auth": "node --test tests/doctorAuth.test.js",
+    "test:appointments": "node --test tests/appointmentBooking.test.js",
+    "test:privacy": "node --test tests/privacyAndRoles.test.js",
+    "test:roles": "node --test tests/roleSeparation.test.js",
+    "test": "node --test tests/i18n.test.js tests/doctorAuth.test.js tests/appointmentBooking.test.js tests/privacyAndRoles.test.js tests/roleSeparation.test.js",
+    "check:i18n": "node scripts/check-translations.js",
+    "cap:sync": "cap sync",
+    "cap:android": "cap open android",
+    "cap:ios": "cap open ios",
+    "build:mobile": "vite build && cap sync"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.2",
+    "@supabase/supabase-js": "^2.117.3",
+    "canvas-confetti": "^1.9.4",
+    "i18next": "^26.4.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.47.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-i18next": "^17.0.15"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}

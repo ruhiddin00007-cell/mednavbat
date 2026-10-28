@@ -1,0 +1,1412 @@
+export const UZBEKISTAN_MEDICAL_DATA = {
+  "regions": [
+    {
+      "id": "tashkent_city",
+      "name": "Toshkent shahri",
+      "shortName": "Toshkent sh.",
+      "hospitals": [
+        {
+          "id": "hosp-tash-1",
+          "name": "Respublika Shoshilinch Tibbiy Yordam Ilmiy Markazi (RSHTYoIM)",
+          "address": "Chilonzor tumani, Kichik halqa yo'li, 2-uy",
+          "phone": "+998 71 277 95 65",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-tash-1",
+              "name": "Dr. Akmal Rahimov",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 14,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "304-xona",
+              "price": 180000,
+              "phone": "+998 90 123 45 67",
+              "rating": 4.9,
+              "isSample": false,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-tash-2",
+              "name": "Prof. Sherzod Mirzayev",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 22,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "501-xona",
+              "price": 250000,
+              "phone": "+998 90 234 56 78",
+              "rating": 5,
+              "isSample": false,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.2825,
+          "lon": 69.2155
+        },
+        {
+          "id": "hosp-tash-2",
+          "name": "Respublika Ixtisoslashtirilgan Kardiologiya Ilmiy-Amaliy Tibbiyot Markazi (RIKIATM)",
+          "address": "Mirzo Ulug'bek tumani, Osiyo ko'chasi, 4-uy",
+          "phone": "+998 71 237 31 42",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-tash-3",
+              "name": "Dr. Rustam Aliyev",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 18,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "210-xona",
+              "price": 200000,
+              "phone": "+998 90 345 67 89",
+              "rating": 4.9,
+              "isSample": false,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-tash-4",
+              "name": "Dr. Gulnora Karimova (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 10,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "105-xona",
+              "price": 120000,
+              "phone": "+998 90 456 78 90",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.332,
+          "lon": 69.289
+        },
+        {
+          "id": "hosp-tash-3",
+          "name": "Akfa Medline Shifoxonasi",
+          "address": "Olmazor tumani, Kichik halqa yo'li, 5A-uy",
+          "phone": "+998 71 203 30 03",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-tash-5",
+              "name": "Dr. Nigora Usmonova",
+              "specialtyId": "lor",
+              "specialtyName": "LOR (Otorinolaringolog)",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "112-xona",
+              "price": 160000,
+              "phone": "+998 93 987 65 43",
+              "rating": 4.8,
+              "isSample": false,
+              "avatar": "https://images.unsplash.com/photo-1594824813566-88855ce783d1?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-tash-6",
+              "name": "Dr. Sardor Ismoilov",
+              "specialtyId": "stomatolog",
+              "specialtyName": "Stomatolog",
+              "experienceYears": 9,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma",
+                "Shanba"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "204-xona",
+              "price": 150000,
+              "phone": "+998 97 123 78 90",
+              "rating": 4.9,
+              "isSample": false,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.348,
+          "lon": 69.229
+        }
+      ]
+    },
+    {
+      "id": "tashkent_region",
+      "name": "Toshkent viloyati",
+      "shortName": "Toshkent vil.",
+      "hospitals": [
+        {
+          "id": "hosp-tashobl-1",
+          "name": "Toshkent Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Chirchiq shahri, Alisher Navoiy shoh ko'chasi, 18-uy",
+          "phone": "+998 70 715 12 30",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-tashobl-1",
+              "name": "Dr. Bahrom Qodirov (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 13,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "12-xona",
+              "price": 90000,
+              "phone": "+998 90 567 89 01",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-tashobl-2",
+              "name": "Dr. Nilufar Toirova (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "24-xona",
+              "price": 110000,
+              "phone": "+998 91 678 90 12",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.468,
+          "lon": 69.582
+        },
+        {
+          "id": "hosp-tashobl-2",
+          "name": "Angren Shahar Markaziy Shifoxonasi",
+          "address": "Angren shahri, Yangi hayot ko'chasi, 1-uy",
+          "phone": "+998 70 665 21 00",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-tashobl-3",
+              "name": "Dr. Jamshid Ergashev (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 12,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "15-xona",
+              "price": 100000,
+              "phone": "+998 93 789 01 23",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.016,
+          "lon": 70.143
+        }
+      ]
+    },
+    {
+      "id": "samarkand",
+      "name": "Samarqand viloyati",
+      "shortName": "Samarqand",
+      "hospitals": [
+        {
+          "id": "hosp-sam-1",
+          "name": "Samarqand Davlat Tibbiyot Universiteti 1-son Klinikasi",
+          "address": "Samarqand shahri, Amir Temur ko'chasi, 18-uy",
+          "phone": "+998 66 233 08 41",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sam-1",
+              "name": "Dr. Aziz Vohidov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 16,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "101-xona",
+              "price": 140000,
+              "phone": "+998 66 233 11 22",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-sam-2",
+              "name": "Dr. Shahnoza Jo'rayeva (NAMUNA)",
+              "specialtyId": "nevropatolog",
+              "specialtyName": "Nevropatolog",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "108-xona",
+              "price": 120000,
+              "phone": "+998 90 654 32 10",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1594824813566-88855ce783d1?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 39.654,
+          "lon": 66.96
+        },
+        {
+          "id": "hosp-sam-2",
+          "name": "Samarqand Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Samarqand shahri, Ishtixon ko'chasi, 1-uy",
+          "phone": "+998 66 235 15 54",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sam-3",
+              "name": "Dr. Olimjon Ro'ziyev (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 19,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "215-xona",
+              "price": 150000,
+              "phone": "+998 91 555 44 33",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 39.668,
+          "lon": 66.942
+        }
+      ]
+    },
+    {
+      "id": "bukhara",
+      "name": "Buxoro viloyati",
+      "shortName": "Buxoro",
+      "hospitals": [
+        {
+          "id": "hosp-bux-1",
+          "name": "Buxoro Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Buxoro shahri, Navoiy shoh ko'chasi, 1-uy",
+          "phone": "+998 65 223 45 12",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-bux-1",
+              "name": "Dr. Dilnoza Hamroyeva (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 12,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "14-xona",
+              "price": 100000,
+              "phone": "+998 65 223 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-bux-2",
+              "name": "Dr. Farrux Zokirov (NAMUNA)",
+              "specialtyId": "lor",
+              "specialtyName": "LOR (Otorinolaringolog)",
+              "experienceYears": 10,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "20-xona",
+              "price": 110000,
+              "phone": "+998 90 711 22 33",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 39.768,
+          "lon": 64.421
+        },
+        {
+          "id": "hosp-bux-2",
+          "name": "Buxoro Viloyat Kardiologiya Dispanseri",
+          "address": "Buxoro shahri, Ibn Sino ko'chasi, 14-uy",
+          "phone": "+998 65 221 10 03",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-bux-3",
+              "name": "Dr. Javlon Saidov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 17,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "31-xona",
+              "price": 130000,
+              "phone": "+998 91 400 55 66",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 39.776,
+          "lon": 64.435
+        }
+      ]
+    },
+    {
+      "id": "andijan",
+      "name": "Andijon viloyati",
+      "shortName": "Andijon",
+      "hospitals": [
+        {
+          "id": "hosp-and-1",
+          "name": "Andijon Davlat Tibbiyot Instituti Klinikasi",
+          "address": "Andijon shahri, Yu. Otabekov ko'chasi, 1-uy",
+          "phone": "+998 74 223 35 10",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-and-1",
+              "name": "Dr. Botir Soliyev (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "104-xona",
+              "price": 120000,
+              "phone": "+998 74 223 11 00",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-and-2",
+              "name": "Dr. Feruza Mo'minova (NAMUNA)",
+              "specialtyId": "pediatr",
+              "specialtyName": "Pediatr",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "112-xona",
+              "price": 100000,
+              "phone": "+998 90 255 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1594824813566-88855ce783d1?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.782,
+          "lon": 72.344
+        },
+        {
+          "id": "hosp-and-2",
+          "name": "Andijon Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Andijon shahri, Milliy Tiklanish ko'chasi, 12-uy",
+          "phone": "+998 74 225 18 20",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-and-3",
+              "name": "Dr. Ulug'bek Qosimov (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 18,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "301-xona",
+              "price": 140000,
+              "phone": "+998 91 160 33 44",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.791,
+          "lon": 72.358
+        }
+      ]
+    },
+    {
+      "id": "fergana",
+      "name": "Farg'ona viloyati",
+      "shortName": "Farg'ona",
+      "hospitals": [
+        {
+          "id": "hosp-fer-1",
+          "name": "Farg'ona Viloyat Shoshilinch Tibbiy Yordam Markazi",
+          "address": "Farg'ona shahri, Qomus ko'chasi, 18-uy",
+          "phone": "+998 73 244 03 03",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-fer-1",
+              "name": "Dr. Elyorbek Madaminov (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 14,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "15-xona",
+              "price": 130000,
+              "phone": "+998 73 244 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-fer-2",
+              "name": "Dr. Umida Yunusova (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "22-xona",
+              "price": 95000,
+              "phone": "+998 90 530 44 55",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.384,
+          "lon": 71.784
+        },
+        {
+          "id": "hosp-fer-2",
+          "name": "Farg'ona Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Farg'ona shahri, Al-Farg'oniy ko'chasi, 42-uy",
+          "phone": "+998 73 241 85 50",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-fer-3",
+              "name": "Dr. Mansur Nishonov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 16,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "103-xona",
+              "price": 120000,
+              "phone": "+998 91 123 99 88",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.375,
+          "lon": 71.795
+        }
+      ]
+    },
+    {
+      "id": "namangan",
+      "name": "Namangan viloyati",
+      "shortName": "Namangan",
+      "hospitals": [
+        {
+          "id": "hosp-nam-1",
+          "name": "Namangan Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Namangan shahri, Bobur shoh ko'chasi, 14-uy",
+          "phone": "+998 69 226 05 30",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-nam-1",
+              "name": "Dr. Ilhom Dadaxonov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "114-xona",
+              "price": 120000,
+              "phone": "+998 69 226 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-nam-2",
+              "name": "Dr. Kamola Sobirova (NAMUNA)",
+              "specialtyId": "lor",
+              "specialtyName": "LOR (Otorinolaringolog)",
+              "experienceYears": 10,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "120-xona",
+              "price": 100000,
+              "phone": "+998 90 222 33 44",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1594824813566-88855ce783d1?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.998,
+          "lon": 71.672
+        },
+        {
+          "id": "hosp-nam-2",
+          "name": "Namangan Viloyat Kardiologiya Dispanseri",
+          "address": "Namangan shahri, To'raqo'rg'on ko'chasi, 8-uy",
+          "phone": "+998 69 234 11 22",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-nam-3",
+              "name": "Dr. Rustam To'xtasinov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 18,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "205-xona",
+              "price": 130000,
+              "phone": "+998 91 360 77 88",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.006,
+          "lon": 71.658
+        }
+      ]
+    },
+    {
+      "id": "kashkadarya",
+      "name": "Qashqadaryo viloyati",
+      "shortName": "Qashqadaryo",
+      "hospitals": [
+        {
+          "id": "hosp-qash-1",
+          "name": "Qashqadaryo Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Qarshi shahri, Nasaf ko'chasi, 12-uy",
+          "phone": "+998 75 221 04 40",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-qash-1",
+              "name": "Dr. G'ayrat Shodiyev (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 17,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "109-xona",
+              "price": 120000,
+              "phone": "+998 75 221 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-qash-2",
+              "name": "Dr. Nargiza Xolmo'minova (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 13,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "115-xona",
+              "price": 95000,
+              "phone": "+998 90 777 88 99",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 38.861,
+          "lon": 65.789
+        },
+        {
+          "id": "hosp-qash-2",
+          "name": "Qashqadaryo Viloyat Kardiologiya Markazi",
+          "address": "Qarshi shahri, Mustaqillik shoh ko'chasi, 33-uy",
+          "phone": "+998 75 225 10 15",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-qash-3",
+              "name": "Dr. Sanjar Oripov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 14,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "208-xona",
+              "price": 115000,
+              "phone": "+998 91 950 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 38.852,
+          "lon": 65.801
+        }
+      ]
+    },
+    {
+      "id": "surkhandarya",
+      "name": "Surxondaryo viloyati",
+      "shortName": "Surxondaryo",
+      "hospitals": [
+        {
+          "id": "hosp-sur-1",
+          "name": "Surxondaryo Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Termiz shahri, At-Termiziy ko'chasi, 45-uy",
+          "phone": "+998 76 223 15 60",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sur-1",
+              "name": "Dr. Qodir Berdiyev (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "11-xona",
+              "price": 90000,
+              "phone": "+998 76 223 22 33",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-sur-2",
+              "name": "Dr. Marhabo Alimova (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 12,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "18-xona",
+              "price": 110000,
+              "phone": "+998 90 980 44 55",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 37.228,
+          "lon": 67.278
+        },
+        {
+          "id": "hosp-sur-2",
+          "name": "Termiz Shahar Tibbiyot Birlashmasi",
+          "address": "Termiz shahri, Taraqqiyot ko'chasi, 7-uy",
+          "phone": "+998 76 227 40 22",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sur-3",
+              "name": "Dr. Jasur Mengliyev (NAMUNA)",
+              "specialtyId": "lor",
+              "specialtyName": "LOR (Otorinolaringolog)",
+              "experienceYears": 9,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "25-xona",
+              "price": 95000,
+              "phone": "+998 91 580 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 37.235,
+          "lon": 67.289
+        }
+      ]
+    },
+    {
+      "id": "khorezm",
+      "name": "Xorazm viloyati",
+      "shortName": "Xorazm",
+      "hospitals": [
+        {
+          "id": "hosp-xor-1",
+          "name": "Xorazm Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Urganch shahri, Al-Xorazmiy ko'chasi, 28-uy",
+          "phone": "+998 62 225 45 00",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-xor-1",
+              "name": "Dr. Umidbek Matyoqubov (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 16,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "102-xona",
+              "price": 130000,
+              "phone": "+998 62 225 11 22",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-xor-2",
+              "name": "Dr. Oysha Jumaniyozova (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "108-xona",
+              "price": 90000,
+              "phone": "+998 90 430 11 22",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.55,
+          "lon": 60.633
+        },
+        {
+          "id": "hosp-xor-2",
+          "name": "Xorazm Viloyat Kardiologiya Dispanseri",
+          "address": "Urganch shahri, Gurlan ko'chasi, 15-uy",
+          "phone": "+998 62 228 12 34",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-xor-3",
+              "name": "Dr. Davron Otajonov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "214-xona",
+              "price": 120000,
+              "phone": "+998 91 990 44 55",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 41.558,
+          "lon": 60.642
+        }
+      ]
+    },
+    {
+      "id": "navoiy",
+      "name": "Navoiy viloyati",
+      "shortName": "Navoiy",
+      "hospitals": [
+        {
+          "id": "hosp-nav-1",
+          "name": "Navoiy Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Navoiy shahri, G'alaba shoh ko'chasi, 7-uy",
+          "phone": "+998 79 224 03 50",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-nav-1",
+              "name": "Dr. Timur Shokirov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 13,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "105-xona",
+              "price": 110000,
+              "phone": "+998 79 224 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-nav-2",
+              "name": "Dr. Zilola Boboyeva (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 10,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "110-xona",
+              "price": 90000,
+              "phone": "+998 90 500 66 77",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.084,
+          "lon": 65.379
+        },
+        {
+          "id": "hosp-nav-2",
+          "name": "Navoiy Shahar 1-son Shifoxonasi",
+          "address": "Navoiy shahri, Zarif ko'chasi, 19-uy",
+          "phone": "+998 79 223 88 10",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-nav-3",
+              "name": "Dr. Anvar Boltayev (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "202-xona",
+              "price": 120000,
+              "phone": "+998 91 330 22 11",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.092,
+          "lon": 65.365
+        }
+      ]
+    },
+    {
+      "id": "jizzakh",
+      "name": "Jizzax viloyati",
+      "shortName": "Jizzax",
+      "hospitals": [
+        {
+          "id": "hosp-jiz-1",
+          "name": "Jizzax Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Jizzax shahri, Sh. Rashidov ko'chasi, 4-uy",
+          "phone": "+998 72 226 30 15",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-jiz-1",
+              "name": "Dr. Shavkat Norboyev (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 14,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "104-xona",
+              "price": 90000,
+              "phone": "+998 72 226 11 00",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-jiz-2",
+              "name": "Dr. Gulbahor Eshmurodova (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 12,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "112-xona",
+              "price": 105000,
+              "phone": "+998 90 290 88 77",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.115,
+          "lon": 67.842
+        },
+        {
+          "id": "hosp-jiz-2",
+          "name": "Jizzax Shahar Tibbiyot Birlashmasi",
+          "address": "Jizzax shahri, Sayiljoy ko'chasi, 2-uy",
+          "phone": "+998 72 222 14 00",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-jiz-3",
+              "name": "Dr. Bekzod Omonov (NAMUNA)",
+              "specialtyId": "lor",
+              "specialtyName": "LOR (Otorinolaringolog)",
+              "experienceYears": 10,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "21-xona",
+              "price": 95000,
+              "phone": "+998 91 590 33 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.123,
+          "lon": 67.855
+        }
+      ]
+    },
+    {
+      "id": "sirdaryo",
+      "name": "Sirdaryo viloyati",
+      "shortName": "Sirdaryo",
+      "hospitals": [
+        {
+          "id": "hosp-sir-1",
+          "name": "Sirdaryo Viloyat Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Guliston shahri, Birlashgan ko'chasi, 22-uy",
+          "phone": "+998 67 225 11 20",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sir-1",
+              "name": "Dr. Oybek Fayziyev (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 13,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "10-xona",
+              "price": 85000,
+              "phone": "+998 67 225 00 11",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-sir-2",
+              "name": "Dr. Madina Yoqubova (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 11,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "16-xona",
+              "price": 100000,
+              "phone": "+998 90 180 55 66",
+              "rating": 4.7,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.489,
+          "lon": 68.784
+        },
+        {
+          "id": "hosp-sir-2",
+          "name": "Guliston Shahar Tibbiyot Birlashmasi",
+          "address": "Guliston shahri, Sayxun ko'chasi, 5-uy",
+          "phone": "+998 67 226 44 10",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-sir-3",
+              "name": "Dr. Nodirbek Rahmonov (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 15,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "20-xona",
+              "price": 110000,
+              "phone": "+998 91 190 22 33",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 40.498,
+          "lon": 68.795
+        }
+      ]
+    },
+    {
+      "id": "karakalpakstan",
+      "name": "Qoraqalpog'iston Respublikasi",
+      "shortName": "Qoraqalpog'iston",
+      "hospitals": [
+        {
+          "id": "hosp-qor-1",
+          "name": "Qoraqalpog'iston Respublika Ko'p Tarmoqli Tibbiyot Markazi",
+          "address": "Nukus shahri, Allayar Dosnazarov ko'chasi, 96-uy",
+          "phone": "+998 61 222 90 10",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-qor-1",
+              "name": "Dr. Aybek Allanazarov (NAMUNA)",
+              "specialtyId": "kardiolog",
+              "specialtyName": "Kardiolog",
+              "experienceYears": 16,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "106-xona",
+              "price": 110000,
+              "phone": "+998 61 222 11 22",
+              "rating": 4.9,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80"
+            },
+            {
+              "id": "doc-qor-2",
+              "name": "Dr. Gulbahar Qodirberganova (NAMUNA)",
+              "specialtyId": "terapevt",
+              "specialtyName": "Terapevt",
+              "experienceYears": 12,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "114-xona",
+              "price": 85000,
+              "phone": "+998 90 730 44 55",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 42.46,
+          "lon": 59.61
+        },
+        {
+          "id": "hosp-qor-2",
+          "name": "Nukus Shahar 1-son Shifoxonasi",
+          "address": "Nukus shahri, Qaraqalpaqstan ko'chasi, 15-uy",
+          "phone": "+998 61 224 15 20",
+          "isSample": false,
+          "doctors": [
+            {
+              "id": "doc-qor-3",
+              "name": "Dr. Marat Xo'jamuratov (NAMUNA)",
+              "specialtyId": "xirurg",
+              "specialtyName": "Xirurg",
+              "experienceYears": 14,
+              "workDays": [
+                "Dushanba",
+                "Seshanba",
+                "Chorshanba",
+                "Payshanba",
+                "Juma"
+              ],
+              "workHours": "09:00 - 17:00",
+              "lunchBreak": "13:00 - 14:00",
+              "roomNumber": "210-xona",
+              "price": 115000,
+              "phone": "+998 91 370 11 22",
+              "rating": 4.8,
+              "isSample": true,
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80"
+            }
+          ],
+          "lat": 42.472,
+          "lon": 59.623
+        }
+      ]
+    }
+  ]
+};

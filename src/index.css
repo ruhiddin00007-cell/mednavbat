@@ -1,0 +1,281 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+    /* Light Mode Design Tokens */
+    --color-bg-primary: #f8fafc;
+    --color-bg-surface: #ffffff;
+    --color-bg-secondary: #f1f5f9;
+    --color-bg-tertiary: #e2e8f0;
+    --color-text-primary: #0f172a;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748b;
+    --color-border: #e2e8f0;
+    --color-border-subtle: #f1f5f9;
+
+    /* Medical Accent Colors (Teal / Emerald) */
+    --color-accent-teal: #0d9488;
+    --color-accent-emerald: #059669;
+    --color-accent-gradient: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+  }
+
+  .dark {
+    /* Dark Mode Design Tokens */
+    --color-bg-primary: #0b1120;
+    --color-bg-surface: #1e293b;
+    --color-bg-secondary: #0f172a;
+    --color-bg-tertiary: #334155;
+    --color-text-primary: #f8fafc;
+    --color-text-secondary: #cbd5e1;
+    --color-text-muted: #94a3b8;
+    --color-border: #334155;
+    --color-border-subtle: #1e293b;
+
+    /* Accent colors retain medical vibrancy in dark */
+    --color-accent-teal: #14b8a6;
+    --color-accent-emerald: #10b981;
+    --color-accent-gradient: linear-gradient(135deg, #38bdf8 0%, #2dd4bf 100%);
+  }
+
+  /* High-performance smooth transition strictly for theme color switching (eliminates box-shadow lag) */
+  /* ── OVERFLOW FIX: html ham overflow-x:hidden va max-width:100% olishi shart.
+     Sabab: body{overflow-x:hidden} scrollbar'ni yashiradi, lekin html elementi
+     hali ham viewport'dan keng bo'lishi mumkin — bu kichrayishga olib keladi. */
+  html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  html,
+  body {
+    transition-property: background-color, color;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: background-color;
+  }
+
+  header,
+  nav,
+  main,
+  footer,
+  section,
+  article,
+  aside,
+  .glass-panel,
+  .glass-panel-dark {
+    transition-property: background-color, color, border-color;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Modal Smooth Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.animate-scaleUp {
+  animation: scaleUp 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* AI Chat Mobile Floating Button Subtle Pulse */
+@keyframes aiPulseSubtle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 20px rgba(45, 156, 219, 0.45), 0 0 12px rgba(45, 156, 219, 0.25);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 6px 26px rgba(45, 156, 219, 0.65), 0 0 18px rgba(45, 156, 219, 0.45);
+  }
+}
+
+.animate-ai-pulse {
+  animation: aiPulseSubtle 3.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ai-pulse {
+    animation: none !important;
+  }
+}
+
+/* Custom UI Polish & Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.dark .glass-panel {
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+  /* Vendor prefix + standart — ikkalasi ham kerak (Tailwind v4 + WebKit) */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for non-WebKit */
+}
+
+.dark .gradient-text {
+  background: linear-gradient(135deg, #38bdf8 0%, #2dd4bf 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #0284c7 0%, #0f766e 100%);
+}
+
+.hero-pattern {
+  background-color: #f0fdf4;
+  background-image: radial-gradient(#0d9488 0.65px, transparent 0.65px), radial-gradient(#0284c7 0.65px, #f0fdfa 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
+
+.dark .hero-pattern {
+  background-color: #0b1120;
+  background-image: radial-gradient(#14b8a6 0.65px, transparent 0.65px), radial-gradient(#38bdf8 0.65px, #0f172a 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Mobile Frame Simulation */
+.mobile-frame-container {
+  width: 390px;
+  height: 800px;
+  border: 12px solid #1e293b;
+  border-radius: 44px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  position: relative;
+}
+
+.mobile-notch {
+  width: 140px;
+  height: 24px;
+  background-color: #1e293b;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+/* Slot pulse animation */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ── MULTILINGUAL SCRIPT & RTL SUPPORT ── */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .rtl-flip,
+[dir="rtl"] .lucide-chevron-right,
+[dir="rtl"] .lucide-arrow-right,
+[dir="rtl"] .lucide-chevron-left,
+[dir="rtl"] .lucide-arrow-left {
+  transform: scaleX(-1);
+}
+
+/* Script-specific Font Families */
+html[data-script="arabic"] body,
+html[data-script="hebrew"] body {
+  font-family: var(--app-font-family, "Amiri", "Noto Sans Arabic", Tahoma, system-ui, sans-serif);
+}
+
+html[data-script="cjk"] body {
+  font-family: var(--app-font-family, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif);
+}
+
+html[data-script="devanagari"] body {
+  font-family: var(--app-font-family, "Noto Sans Devanagari", "Mangal", system-ui, sans-serif);
+}
+
+html[data-script="thai"] body {
+  font-family: var(--app-font-family, "Noto Sans Thai", system-ui, sans-serif);
+}
+
+html[data-script="hangul"] body {
+  font-family: var(--app-font-family, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif);
+}
+
+/* Auto-translation warning pulse indicator */
+.badge-auto-warning {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+.dark .badge-auto-warning {
+  background-color: rgba(120, 53, 15, 0.3);
+  color: #fcd34d;
+  border-color: rgba(180, 83, 9, 0.5);
+}
+

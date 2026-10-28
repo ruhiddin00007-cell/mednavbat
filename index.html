@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- iPhone Safari'da raqamlar avtomatik havolaga aylanib, rang o'zgarmasin.
+       Barcha tel: havolalar quyida JS komponentlarida aniq ko'rsatilgan. -->
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Dark Mode Initializer (Zero Flash on Reload) -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('mednavbat_theme');
+        var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && systemDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) { }
+    })();
+  </script>
+
+  <!-- 1. Title -->
+  <title>Med navbat</title>
+
+  <!-- PWA & Mobile Meta Tags -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Med navbat" />
+  <meta name="application-name" content="Med navbat" />
+  <meta name="theme-color" content="#0d9488" />
+
+  <!-- 2. Meta description (158 belgi - 160 belgidan oshmagan) -->
+  <meta name="description"
+    content="MedNavbat — shifokorlarga onlayn navbat oling, mutaxassis tanlang va vaqtingizni tejang. LOR, Kardiolog, Stomatolog va boshqa yo'nalishlar bo'yicha tez ro'yxatga yozilish." />
+
+  <!-- 3. Meta keywords -->
+  <meta name="keywords"
+    content="shifokor navbati, onlayn navbat, shifoxona, MedNavbat, doktor qabuli, tibbiy yordam, navbat olish, poliklinika navbati" />
+  <meta name="author" content="MedNavbat" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- 4. Canonical URL -->
+  <link rel="canonical" href="https://mednavbat.uz/" />
+
+  <!-- 5. Favicon va Touch Icons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+
+  <!-- 6. Open Graph (Facebook, Telegram, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mednavbat.uz/" />
+  <meta property="og:site_name" content="MedNavbat.uz" />
+  <meta property="og:locale" content="uz_UZ" />
+  <meta property="og:title" content="MedNavbat.uz — Shifoxonalar uchun Onlayn Navbat Olish Tizimi" />
+  <meta property="og:description"
+    content="MedNavbat.uz — shifokorlarga onlayn navbat oling, mutaxassis tanlang va vaqtingizni tejang. LOR, Kardiolog, Stomatolog bo'yicha qulay navbat olish." />
+  <meta property="og:image" content="https://mednavbat.uz/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="MedNavbat.uz — Onlayn Tibbiy Navbat Platformasi" />
+
+  <!-- 7. Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://mednavbat.uz/" />
+  <meta name="twitter:title" content="MedNavbat.uz — Shifoxonalar uchun Onlayn Navbat Olish Tizimi" />
+  <meta name="twitter:description"
+    content="MedNavbat.uz — shifokorlarga onlayn navbat oling, mutaxassis tanlang va vaqtingizni tejang." />
+  <meta name="twitter:image" content="https://mednavbat.uz/og-image.svg" />
+
+  <!-- 8. Structured Data (Schema.org JSON-LD - MedicalBusiness) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "MedNavbat.uz",
+      "alternateName": "MedNavbat",
+      "url": "https://mednavbat.uz/",
+      "logo": "https://mednavbat.uz/favicon.svg",
+      "image": "https://mednavbat.uz/og-image.svg",
+      "description": "MedNavbat.uz — O'zbekiston shifoxonalari va shifokorlariga onlayn navbat olish, tibbiy mutaxassislarni tanlash va elektron retseptlar olish platformasi.",
+      "telephone": "+998-95-141-10-07",
+      "priceRange": "UZS",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bunyodkor ko'chasi, 1",
+        "addressLocality": "Toshkent",
+        "addressRegion": "Toshkent shahri",
+        "postalCode": "100000",
+        "addressCountry": "UZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.2995,
+        "longitude": 69.2401
+      },
+      "openingHoursSpecification": [
+        {
+
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Shifokor qabuliga onlayn navbat olish"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Elektron tibbiy navbat chiptasi"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Onlayn video konsultatsiya"
+        }
+      ],
+      "medicalSpecialty": [
+        "Cardiovascular",
+        "Otolaryngologic",
+        "Dentistry",
+        "Neurology",
+        "Pediatric",
+        "Surgery",
+        "Gynecologic"
+      ]
+    }
+    </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-slate-50 antialiased selection:bg-teal-500 selection:text-white">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

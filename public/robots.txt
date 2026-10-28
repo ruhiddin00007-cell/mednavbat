@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin-kirish
+Disallow: /api/
+Allow: /
+
+# Sitemaps
+Sitemap: https://mednavbat.uz/sitemap.xml

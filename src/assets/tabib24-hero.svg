@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" role="img" aria-label="Tabib24 - Dunyo shifokorlari, hoziroq yoningizda">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0D1627"/>
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1A2E"/>
+      <stop offset="100%" stop-color="#0B1628"/>
+    </linearGradient>
+    <linearGradient id="card2Grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1A30"/>
+      <stop offset="100%" stop-color="#0B1625"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0AC84"/>
+      <stop offset="100%" stop-color="#C8956A"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1A2E"/>
+      <stop offset="100%" stop-color="#071020"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D1F35"/>
+      <stop offset="100%" stop-color="#071526"/>
+    </linearGradient>
+    <linearGradient id="globeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#0E2040"/>
+    </linearGradient>
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="phoneClip">
+      <rect x="0" y="0" width="82" height="150" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="680" height="420" fill="url(#bgGrad)"/>
+
+  <!-- Background decorative circles -->
+  <circle cx="340" cy="210" r="220" fill="#0E1A2E" opacity="0.7"/>
+  <circle cx="340" cy="210" r="150" fill="#102238" opacity="0.5"/>
+
+  <!-- Glow orbs -->
+  <circle cx="250" cy="195" r="130" fill="url(#glowTeal)"/>
+  <circle cx="520" cy="180" r="110" fill="url(#glowBlue)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="100" x2="680" y2="100" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="200" x2="680" y2="200" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="300" x2="680" y2="300" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+  <line x1="170" y1="0" x2="170" y2="420" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+  <line x1="340" y1="0" x2="340" y2="420" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+  <line x1="510" y1="0" x2="510" y2="420" stroke="#1A2B45" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- ══════════ LEFT SIDE: BRAND + TAGLINE ══════════ -->
+  <!-- Logo: Tabib24 -->
+  <text x="42" y="66" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="40" font-weight="500" letter-spacing="-1">
+    <tspan fill="#F1F5F9">Tabib</tspan><tspan fill="#2DD4BF">24</tspan>
+  </text>
+
+  <!-- Tagline: two lines -->
+  <text x="42" y="87" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8">Dunyo shifokorlari,</text>
+  <text x="42" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8">hoziroq yoningizda</text>
+
+  <!-- Decorative teal underline under brand -->
+  <rect x="42" y="110" width="60" height="2" rx="1" fill="#2DD4BF" opacity="0.7"/>
+
+  <!-- ══════════ LEFT BOTTOM: FEATURE CARDS STACK ══════════ -->
+
+  <!-- Card 1: Online Konsultatsiya -->
+  <g transform="translate(28, 136)" filter="url(#cardShadow)">
+    <rect width="162" height="52" rx="12" fill="url(#cardGrad)" stroke="#1E3A5F" stroke-width="1"/>
+    <!-- Teal accent left bar -->
+    <rect x="0" y="0" width="4" height="52" rx="2" fill="#2DD4BF"/>
+    <!-- Icon -->
+    <circle cx="28" cy="26" r="14" fill="#0D2A40"/>
+    <!-- Video icon simplified -->
+    <rect x="19" y="19" width="13" height="10" rx="2" fill="#2DD4BF"/>
+    <polygon points="32,21 37,24 32,27" fill="#2DD4BF"/>
+    <!-- Text -->
+    <text x="50" y="23" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#F1F5F9">Online Konsultatsiya</text>
+    <text x="50" y="36" font-family="'Inter', sans-serif" font-size="8.5" font-weight="400" fill="#64748B">Video yoki chat orqali</text>
+    <!-- Online badge -->
+    <circle cx="148" cy="14" r="5" fill="#34D399" opacity="0.9"/>
+    <circle cx="148" cy="14" r="3" fill="#34D399"/>
+  </g>
+
+  <!-- Card 2: 1200+ Shifokor -->
+  <g transform="translate(28, 198)" filter="url(#cardShadow)">
+    <rect width="162" height="52" rx="12" fill="url(#card2Grad)" stroke="#1E3A5F" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="52" rx="2" fill="#14B8A6"/>
+    <!-- Icon background -->
+    <circle cx="28" cy="26" r="14" fill="#0D2440"/>
+    <!-- People/user icon -->
+    <circle cx="26" cy="20" r="5" fill="#14B8A6"/>
+    <path d="M17,33 Q17,26 26,26 Q35,26 35,33" fill="#14B8A6"/>
+    <!-- Text -->
+    <text x="50" y="23" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#F1F5F9">1,200+ Shifokor</text>
+    <text x="50" y="36" font-family="'Inter', sans-serif" font-size="8.5" font-weight="400" fill="#64748B">50+ mutaxassislik</text>
+    <!-- Star rating -->
+    <text x="50" y="47" font-family="'Inter', sans-serif" font-size="8" fill="#F59E0B">★★★★★</text>
+    <text x="89" y="47" font-family="'Inter', sans-serif" font-size="7.5" fill="#64748B"> 4.9</text>
+  </g>
+
+  <!-- Card 3: 24/7 Ishlaydi -->
+  <g transform="translate(28, 260)" filter="url(#cardShadow)">
+    <rect width="162" height="52" rx="12" fill="url(#cardGrad)" stroke="#1E3A5F" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="52" rx="2" fill="#6366F1"/>
+    <!-- Icon -->
+    <circle cx="28" cy="26" r="14" fill="#0D1A40"/>
+    <!-- Clock icon -->
+    <circle cx="28" cy="26" r="7" fill="none" stroke="#6366F1" stroke-width="1.5"/>
+    <line x1="28" y1="21" x2="28" y2="26" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="28" y1="26" x2="32" y2="29" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Text -->
+    <text x="50" y="23" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#F1F5F9">24/7 Ishlaydi</text>
+    <text x="50" y="36" font-family="'Inter', sans-serif" font-size="8.5" font-weight="400" fill="#64748B">Doim mavjud, siz uchun</text>
+    <!-- Time badge -->
+    <rect x="50" y="39" width="38" height="10" rx="5" fill="#1E1A5F" stroke="#6366F1" stroke-width="0.5"/>
+    <text x="69" y="47" font-family="'Inter', sans-serif" font-size="7" fill="#818CF8" text-anchor="middle">Hozir faol</text>
+  </g>
+
+  <!-- ══════════ CENTER: DOCTOR ILLUSTRATION ══════════ -->
+  <g transform="translate(220, 35)">
+
+    <!-- Doctor glow backdrop -->
+    <ellipse cx="95" cy="360" rx="70" ry="18" fill="#0E1A2E" opacity="0.8"/>
+
+    <!-- White coat body (torso) -->
+    <path d="M55,160 C45,155 30,150 25,200 L20,385 L170,385 L165,200 C160,150 145,155 135,160 Z" fill="url(#coatGrad)"/>
+
+    <!-- V-neck teal scrubs visible inside coat -->
+    <path d="M78,160 L95,185 L112,160 Z" fill="#14B8A6"/>
+    <rect x="82" y="185" width="26" height="80" fill="#14B8A6"/>
+
+    <!-- Coat lapels -->
+    <path d="M78,160 L65,200 L78,215 L95,185 Z" fill="#E2E8F0"/>
+    <path d="M112,160 L125,200 L112,215 L95,185 Z" fill="#E2E8F0"/>
+
+    <!-- Left arm -->
+    <path d="M25,200 C15,210 12,260 18,310 C22,330 32,340 45,340 L55,310 C48,300 42,280 45,255 C48,230 50,215 55,205 Z" fill="#F1F5F9"/>
+    <!-- Left hand -->
+    <ellipse cx="38" cy="342" rx="14" ry="18" fill="url(#skinGrad)"/>
+    <!-- Stethoscope in left hand -->
+    <path d="M38,330 C32,310 18,300 14,285 C10,270 16,262 22,265 C28,268 28,278 30,288" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="14" cy="282" r="5" fill="#64748B" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Right arm (holding phone) -->
+    <path d="M165,200 C175,210 178,250 170,290 C165,310 155,320 145,322 L140,295 C148,285 152,265 150,245 C148,225 150,215 155,208 Z" fill="#F1F5F9"/>
+    <!-- Right hand -->
+    <ellipse cx="148" cy="325" rx="14" ry="18" fill="url(#skinGrad)"/>
+
+    <!-- Neck -->
+    <rect x="82" y="130" width="26" height="32" rx="13" fill="url(#skinGrad)"/>
+
+    <!-- Head -->
+    <ellipse cx="95" cy="108" rx="40" ry="45" fill="url(#skinGrad)"/>
+
+    <!-- Hair -->
+    <path d="M55,90 C55,55 75,48 95,48 C115,48 135,55 135,90 C135,78 128,65 95,63 C62,65 55,78 55,90 Z" fill="#1C1917"/>
+
+    <!-- Face: Eyes -->
+    <ellipse cx="82" cy="105" rx="5" ry="6" fill="white"/>
+    <ellipse cx="108" cy="105" rx="5" ry="6" fill="white"/>
+    <ellipse cx="83" cy="106" rx="3" ry="3.5" fill="#1C1917"/>
+    <ellipse cx="109" cy="106" rx="3" ry="3.5" fill="#1C1917"/>
+    <!-- Pupils highlight -->
+    <circle cx="84.5" cy="105" r="1" fill="white"/>
+    <circle cx="110.5" cy="105" r="1" fill="white"/>
+
+    <!-- Eyebrows -->
+    <path d="M77,97 Q83,93 89,97" fill="none" stroke="#1C1917" stroke-width="2" stroke-linecap="round"/>
+    <path d="M101,97 Q107,93 113,97" fill="none" stroke="#1C1917" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M92,112 Q95,118 98,112" fill="none" stroke="#C8956A" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Smile -->
+    <path d="M84,122 Q95,130 106,122" fill="none" stroke="#C8956A" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Ears -->
+    <ellipse cx="55" cy="108" rx="7" ry="10" fill="url(#skinGrad)"/>
+    <ellipse cx="135" cy="108" rx="7" ry="10" fill="url(#skinGrad)"/>
+
+    <!-- Coat collar badge (Tabib24 logo on coat) -->
+    <rect x="82" y="220" width="26" height="18" rx="4" fill="#0E1A2E" stroke="#2DD4BF" stroke-width="1"/>
+    <text x="95" y="232" font-family="'Inter', sans-serif" font-size="6.5" font-weight="700" fill="#2DD4BF" text-anchor="middle">Tabib24</text>
+
+    <!-- Cross symbol on coat pocket -->
+    <rect x="60" y="250" width="18" height="18" rx="4" fill="#EFF6FF" stroke="#DBEAFE" stroke-width="0.5"/>
+    <rect x="67.5" y="253" width="3" height="12" rx="1.5" fill="#2DD4BF"/>
+    <rect x="63.5" y="257.5" width="11" height="3" rx="1.5" fill="#2DD4BF"/>
+  </g>
+
+  <!-- ══════════ RIGHT SIDE: PHONE + CARDS ══════════ -->
+
+  <!-- Phone mockup -->
+  <g transform="translate(442, 60)" filter="url(#softShadow)">
+    <rect width="82" height="150" rx="12" fill="url(#phoneGrad)" stroke="#1E3A5F" stroke-width="1.5"/>
+    <!-- Phone screen -->
+    <rect x="5" y="14" width="72" height="120" rx="8" fill="url(#screenGrad)"/>
+    <!-- Camera notch -->
+    <circle cx="41" cy="9" r="3" fill="#0A1525"/>
+    <!-- Home indicator -->
+    <rect x="30" y="143" width="22" height="2.5" rx="1.25" fill="#2DD4BF" opacity="0.5"/>
+
+    <!-- App UI on screen -->
+    <!-- App bar -->
+    <rect x="5" y="14" width="72" height="18" rx="4" fill="#0E2040"/>
+    <text x="41" y="26" font-family="'Inter', sans-serif" font-size="7" font-weight="700" fill="#2DD4BF" text-anchor="middle">Tabib24</text>
+
+    <!-- Doctor mini card on screen -->
+    <rect x="9" y="36" width="64" height="40" rx="6" fill="#0F1E35" stroke="#1E3055" stroke-width="0.75"/>
+    <circle cx="23" cy="52" r="10" fill="#1A2E50"/>
+    <!-- Mini doctor face -->
+    <circle cx="23" cy="50" rx="7" ry="8" fill="#E0AC84"/>
+    <path d="M16,60 Q17,55 23,55 Q29,55 30,60 Z" fill="#F1F5F9"/>
+    <text x="37" y="47" font-family="'Inter', sans-serif" font-size="6.5" font-weight="700" fill="#F1F5F9">Dr. Azimov</text>
+    <text x="37" y="56" font-family="'Inter', sans-serif" font-size="5.5" fill="#64748B">Kardiologiya</text>
+    <!-- Online dot -->
+    <circle cx="62" cy="40" r="3.5" fill="#34D399"/>
+    <!-- Rating -->
+    <text x="37" y="65" font-family="'Inter', sans-serif" font-size="5.5" fill="#F59E0B">★ 4.9</text>
+    <text x="54" y="65" font-family="'Inter', sans-serif" font-size="5.5" fill="#64748B"> (128)</text>
+
+    <!-- Call/Book button -->
+    <rect x="9" y="80" width="64" height="14" rx="7" fill="#14B8A6"/>
+    <text x="41" y="90" font-family="'Inter', sans-serif" font-size="6.5" font-weight="700" fill="white" text-anchor="middle">Navbat olish</text>
+
+    <!-- Time slots on screen -->
+    <text x="41" y="104" font-family="'Inter', sans-serif" font-size="5.5" fill="#64748B" text-anchor="middle">Bugungi bo'sh vaqtlar:</text>
+    <rect x="9" y="107" width="18" height="11" rx="4" fill="#0D2535" stroke="#2DD4BF" stroke-width="0.75"/>
+    <text x="18" y="115" font-family="'Inter', sans-serif" font-size="5.5" fill="#2DD4BF" text-anchor="middle">09:00</text>
+    <rect x="30" y="107" width="18" height="11" rx="4" fill="#0D2535"/>
+    <text x="39" y="115" font-family="'Inter', sans-serif" font-size="5.5" fill="#64748B" text-anchor="middle">10:30</text>
+    <rect x="51" y="107" width="18" height="11" rx="4" fill="#0D2535"/>
+    <text x="60" y="115" font-family="'Inter', sans-serif" font-size="5.5" fill="#64748B" text-anchor="middle">14:00</text>
+
+    <!-- Bottom status bar on screen -->
+    <rect x="5" y="122" width="72" height="12" rx="0" fill="#08131F"/>
+    <circle cx="17" cy="128" r="3.5" fill="#34D399"/>
+    <text x="24" y="131" font-family="'Inter', sans-serif" font-size="5" fill="#94A3B8">12 shifokor online</text>
+  </g>
+
+  <!-- Floating notification card (top right of phone) -->
+  <g transform="translate(530, 58)" filter="url(#cardShadow)">
+    <rect width="128" height="44" rx="10" fill="#0E1A2E" stroke="#2DD4BF" stroke-width="0.75"/>
+    <circle cx="18" cy="22" r="10" fill="#0D2A3A"/>
+    <!-- Bell icon -->
+    <path d="M14,18 Q14,14 18,14 Q22,14 22,18 L23,24 L13,24 Z" fill="#2DD4BF"/>
+    <rect x="16" y="24" width="4" height="3" rx="1.5" fill="#2DD4BF"/>
+    <text x="32" y="18" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" fill="#F1F5F9">Navbatga yozildingiz!</text>
+    <text x="32" y="29" font-family="'Inter', sans-serif" font-size="6.5" fill="#64748B">Dr. Azimov · 09:00</text>
+    <text x="32" y="39" font-family="'Inter', sans-serif" font-size="6" fill="#2DD4BF">Bugun, Toshkent</text>
+    <!-- Green check -->
+    <circle cx="116" cy="14" r="6" fill="#34D399" opacity="0.15"/>
+    <path d="M112,14 L115,17 L120,11" stroke="#34D399" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Rating card (bottom right) -->
+  <g transform="translate(530, 234)" filter="url(#cardShadow)">
+    <rect width="128" height="60" rx="10" fill="#0E1A2E" stroke="#1E3A5F" stroke-width="1"/>
+    <!-- Avatar circles stack -->
+    <circle cx="18" cy="22" r="10" fill="#1A304A"/>
+    <text x="18" y="26" font-family="'Inter', sans-serif" font-size="9" fill="#F1F5F9" text-anchor="middle">👩‍⚕️</text>
+    <circle cx="28" cy="22" r="10" fill="#162840"/>
+    <text x="28" y="26" font-family="'Inter', sans-serif" font-size="9" fill="#F1F5F9" text-anchor="middle">👨‍⚕️</text>
+    <circle cx="38" cy="22" r="10" fill="#112035"/>
+    <text x="38" y="26" font-family="'Inter', sans-serif" font-size="9" fill="#F1F5F9" text-anchor="middle">👩‍⚕️</text>
+    <text x="54" y="18" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" fill="#F1F5F9">1,240+ Shifokor</text>
+    <text x="54" y="28" font-family="'Inter', sans-serif" font-size="6.5" fill="#64748B">Faol va tayyor</text>
+    <!-- Stars row -->
+    <text x="14" y="47" font-family="'Inter', sans-serif" font-size="11" fill="#F59E0B">★★★★★</text>
+    <text x="74" y="46" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" fill="#F1F5F9">4.9</text>
+    <text x="86" y="46" font-family="'Inter', sans-serif" font-size="6.5" fill="#64748B">/5.0</text>
+    <text x="14" y="56" font-family="'Inter', sans-serif" font-size="6" fill="#64748B">8,400+ baholash asosida</text>
+  </g>
+
+  <!-- Globe / world connectivity card -->
+  <g transform="translate(530, 302)" filter="url(#cardShadow)">
+    <rect width="128" height="56" rx="10" fill="url(#card2Grad)" stroke="#1E3A5F" stroke-width="1"/>
+    <!-- Globe icon -->
+    <circle cx="22" cy="28" r="14" fill="url(#globeGrad)" stroke="#1E3A5F" stroke-width="1"/>
+    <!-- Globe lines -->
+    <ellipse cx="22" cy="28" rx="8" ry="14" fill="none" stroke="#2DD4BF" stroke-width="0.75" opacity="0.6"/>
+    <line x1="8" y1="28" x2="36" y2="28" stroke="#2DD4BF" stroke-width="0.75" opacity="0.6"/>
+    <path d="M22,14 Q28,21 28,28 Q28,35 22,42" fill="none" stroke="#2DD4BF" stroke-width="0.5" opacity="0.5"/>
+    <path d="M22,14 Q16,21 16,28 Q16,35 22,42" fill="none" stroke="#2DD4BF" stroke-width="0.5" opacity="0.5"/>
+    <text x="42" y="22" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" fill="#F1F5F9">50+ Til</text>
+    <text x="42" y="32" font-family="'Inter', sans-serif" font-size="6.5" fill="#64748B">Dunyo tillari</text>
+    <text x="42" y="44" font-family="'Inter', sans-serif" font-size="6" fill="#2DD4BF">O'z tilingizda muloqot</text>
+  </g>
+
+  <!-- ══════════ BOTTOM STATS BAR ══════════ -->
+  <rect x="28" y="328" width="400" height="62" rx="14" fill="#0E1A2E" stroke="#1E3A5F" stroke-width="1" opacity="0.9"/>
+
+  <!-- Stat 1: Bemorlar -->
+  <g transform="translate(52, 344)">
+    <text x="0" y="16" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#2DD4BF">50K+</text>
+    <text x="0" y="30" font-family="'Inter', sans-serif" font-size="8" fill="#64748B">Bemor</text>
+  </g>
+  <line x1="138" y1="338" x2="138" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- Stat 2: Shifokorlar -->
+  <g transform="translate(152, 344)">
+    <text x="0" y="16" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F1F5F9">1,200+</text>
+    <text x="0" y="30" font-family="'Inter', sans-serif" font-size="8" fill="#64748B">Shifokor</text>
+  </g>
+  <line x1="248" y1="338" x2="248" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- Stat 3: Baholash -->
+  <g transform="translate(262, 344)">
+    <text x="0" y="16" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F1F5F9">4.9</text>
+    <text x="0" y="30" font-family="'Inter', sans-serif" font-size="8" fill="#64748B">Reyting ★</text>
+  </g>
+  <line x1="338" y1="338" x2="338" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- Stat 4: Mamlakat -->
+  <g transform="translate(352, 344)">
+    <text x="0" y="16" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F1F5F9">30+</text>
+    <text x="0" y="30" font-family="'Inter', sans-serif" font-size="8" fill="#64748B">Mamlakat</text>
+  </g>
+
+  <!-- ══════════ TOP-RIGHT CORNER: Live badge ══════════ -->
+  <g transform="translate(570, 18)">
+    <rect width="90" height="26" rx="13" fill="#0E1A2E" stroke="#34D399" stroke-width="1"/>
+    <circle cx="18" cy="13" r="5" fill="#34D399" opacity="0.2"/>
+    <circle cx="18" cy="13" r="3" fill="#34D399"/>
+    <text x="26" y="17.5" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#34D399">JONLI</text>
+    <text x="55" y="17.5" font-family="'Inter', sans-serif" font-size="8" fill="#64748B">· Faol</text>
+  </g>
+</svg>

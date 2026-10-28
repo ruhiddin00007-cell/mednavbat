@@ -1,0 +1,13 @@
+{
+  "name": "mednavbat-server",
+  "version": "1.0.0",
+  "description": "MedNavbat Backend — SMS OTP + QR Ticket API Server",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

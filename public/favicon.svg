@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="medShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f766e" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Base Background -->
+  <rect width="64" height="64" rx="18" fill="url(#medGrad)" filter="url(#medShadow)"/>
+  
+  <!-- Pulse / Stethoscope Heart Wave Icon -->
+  <path d="M14 33h7l3.5-7 6 16 5-11 3.5 4h11" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Small Health Plus Dot -->
+  <circle cx="48" cy="18" r="3.5" fill="#34d399"/>
+</svg>
